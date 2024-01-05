@@ -12,6 +12,9 @@ export default class HomePage extends Component {
 
                 <div className='uni-up-margin'>
                     <div className="bg-white-A700 font-inter h-[50vh] mx-auto  relative w-full">
+                        {/* Navigation Links */}
+                        <div className="absolute md:flex-1 h-[90px] sm:h-auto object-cover md:w-full bg-light_green-50 flex sm:flex-col flex-row sm:gap-5 inset-x-[0] items-center justify-start mx-auto md:px-10 sm:px-5 px-[60px] top-[0] w-full">
+                        </div>
                         {/* ACM Chapter Introduction */}
                         <div className="absolute flex flex-col inset-x-[0] items-center justify-start mx-auto top-[0] w-full">
                             <div className="h-[1024px] md:h-[1356px] sm:h-[932px] md:px-5 relative w-full">
@@ -61,24 +64,27 @@ export default class HomePage extends Component {
                                                         </div>
                                                     </div>
                                                     {/* ACM Logo Image */}
-                                                    <Img
-                                                        className="h-[500px]"
-                                                        src="images/img_circleoverlay.svg"
-                                                        alt="circleoverlay"
-                                                    />
+                                                    <div className="sm:block">
+                                                        <Img
+                                                            className="h-[450px]"
+                                                            src="images/img_circleoverlay.svg"
+                                                            alt="circleoverlay"
+                                                        />
+                                                    </div>
+
                                                 </div>
                                             </div>
-                                            {/* Background Vector Image */}
+                                            {/* Background Vector Blue Image */}
                                             <Img
-                                                className="absolute bottom-[0] h-[664px] object-cover right-[0]"
+                                                className="absolute bottom-[0] h-[550px] object-cover right-[0]"
                                                 src="images/img_vector1.png"
                                                 alt="vectorOne"
                                             />
                                         </div>
                                         {/* ACM Chapter Image Circle*/}
-                                        <div className="absolute bg-blue_gray-100 flex flex-col h-[525px] sm:h-auto items-center justify-start right-[11%] rounded-[262px] top-[10%] w-[525px]">
+                                        <div className="absolute bg-blue_gray-100 flex flex-col h-[400px] sm:h-auto items-center justify-start right-[11%] rounded-[262px] top-[10%] w-[400px]">
                                             <Img
-                                                className="h-[525px] md:h-auto rounded-[50%] w-[525px]"
+                                                className="h-[400px] md:h-auto rounded-[50%] w-[400px]"
                                                 src="images/img_acm01.png"
                                                 alt="acmOne"
                                             />
@@ -86,17 +92,12 @@ export default class HomePage extends Component {
                                     </div>
                                     {/* Vector Image */}
                                     <Img
-                                        className="absolute h-[183px] right-[1%] top-[0]"
+                                        className="absolute h-[150px] right-[1%] top-[0]"
                                         src="images/img_vector2.svg"
                                         alt="vectorTwo"
                                     />
                                 </div>
-                                {/* Navigation Links */}
-                                <div className="absolute md:flex-1 h-[90px] sm:h-auto object-cover md:w-full bg-light_green-50 flex sm:flex-col flex-row sm:gap-5 inset-x-[0] items-center justify-start mx-auto md:px-10 sm:px-5 px-[60px] top-[0] w-full">
-                                    {/* ACM Logo */}
-                    
-                        
-                                </div>
+
                             </div>
                         </div>
                     </div>
